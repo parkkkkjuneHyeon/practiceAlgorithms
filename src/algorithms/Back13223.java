@@ -15,10 +15,10 @@ public class Back13223 {
 		String[] currentTime = br.readLine().replaceAll(":", ",").split(",");
 		String[] needTime = br.readLine().replaceAll(":", ",").split(",");
 		ArrayList<Integer> curInt = new ArrayList<>();
-	    ArrayList<Integer> needInt = new ArrayList<>();
+	    	ArrayList<Integer> needInt = new ArrayList<>();
 		for(int i=0; i<currentTime.length; i++) {
-            curInt.add(Integer.parseInt(currentTime[i]));
-            needInt.add(Integer.parseInt(needTime[i]));
+            	curInt.add(Integer.parseInt(currentTime[i]));
+            	needInt.add(Integer.parseInt(needTime[i]));
         }
 
 		
